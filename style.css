@@ -1,8 +1,7 @@
-body{
+/*body{
   margin: 0%;
   background-image: url('https://i.pinimg.com/564x/8a/77/87/8a778709ed682501ebc75cf3e4fe00d2.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-size: cover;
 }
 header{
   margin: 0px;
@@ -15,7 +14,7 @@ footer{
   height: 50px;
   font: 18px "Fira Sans", sans-serif;
   background-color: #ffed99;
-  color: #3b14a7;
+  color:  hsl(200, 95%, 55%);
   text-align: center;
   padding-top: 7px;
   border: 2px solid #231e23;
@@ -49,19 +48,10 @@ header nav ul li {
 padding-left: 0%;
 }
 
-/*#m1 {
-width:230px;
-height: 192px;
-margin:80px;
-   border: 5px solid pink;
-   display: inline-block;
-   
-}*/
  .m2 {
 width:530px;
 height: 592px;
-   
-    display: inline-block;
+       display: inline-block;
 margin-left:500px;
 margin-top:44px;
 
@@ -74,7 +64,7 @@ margin-top:44px;
 
 li .m0{ 
   margin-top: 144px;
-}
+}*/
 
 
  
