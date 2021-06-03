@@ -1,4 +1,4 @@
-/*body{
+body{
   margin: 0%;
   background-image: url('https://i.pinimg.com/564x/8a/77/87/8a778709ed682501ebc75cf3e4fe00d2.jpg');
     background-size: cover;
@@ -22,8 +22,9 @@ footer{
 }
 
 header nav{
-  float: right;
+  float:right;
   width: 30%;
+  display: inline;
 }
 
 
@@ -40,9 +41,7 @@ header h1 {
   margin-top: 1px;
   text-align: center;
 }
-header nav ul li {
-  display: inline-block;
-}
+
 
 #move {
 padding-left: 0%;
@@ -64,7 +63,7 @@ margin-top:44px;
 
 li .m0{ 
   margin-top: 144px;
-}*/
+}
 
 
  
