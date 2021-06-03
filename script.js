@@ -1,12 +1,29 @@
 
 var name= prompt("enter your name");
   document.write("<h1 style='color:#b83b5e;' >welcome "+name +"</h1> ");
-  document.write("<img src='https://images.unsplash.com/photo-1472214103451-9374bd1c798e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGljfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80' width=130px hight=130px />");
 
- var add= prompt("what is the result for 5+5");
- if (add == 10 ){
- alert ("coorect answer");
-     }else
-     {alert("you must study hard");     }
+
+  var flow=prompt("please chose tulip or narges:");
+  if (flow =="tulip"){
+   document.write("<img src='https://alkhaleejonline.net/sites/default/files/2018-05/1525797493685538900.jpg' width=130px hight=130px />");}
+    else if (flow =="narges")
+  { document.write("<img src='https://www.nabataty.com/plants/wp-content/uploads/2015/07/Narcissus-wight.jpg' width=130px hight=130px />");  
+    }
+
+    var info= prompt("do you need more information? yes/ no");
+    if (info == 'yes'){
+  document.write("<p style='color:#364f6b; text-align:center' > A flower is the reproductive part of flowering plants. A flower is a special part of the plant. Flowers are also called the bloom or blossom of a plant. Flowers have petals. Inside the part of the flower that has petals are the parts which produce pollen and seeds. </p> ");}
+
+  else {document.write("<p style='color:#364f6b; text-align:center; font-size: 25px;' >thank you for visiting</p>");
+
+  }
+
+  
+
+//  var add= prompt("what is the result for 5+5");
+//  if (add == 10 ){
+//  alert ("coorect answer");
+//      }else
+//      {alert("you must study hard");     }
 
 
