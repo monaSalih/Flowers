@@ -3,7 +3,7 @@ alert("👋 hi I hope you have fun in this website 😉");
 
 var name= prompt("enter your name");
   document.write("<h1 style='color:#b83b5e;text-align:center;' >welcome "+name +"</h1> ");
-==============
+
 
   var flow=prompt("please chose Tulip or Narcissus:");
   if (flow =="Tulip"){
