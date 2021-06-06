@@ -20,9 +20,7 @@ if (a<7){
 {alert("you did great job") ;} }
 // }
 
- checkNumber();
- var x=favoratNumber();
- document.write(x);
+
 
 // 
 // 
