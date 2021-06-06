@@ -21,10 +21,12 @@ footer{
   
 }
 
-header nav{
-  float:right;
-  width: 30%;
-  display: inline;
+ header nav{
+   float: right;
+   width:30%;
+   display : inline;
+
+    
 }
 
 
@@ -70,3 +72,7 @@ p #g1{
 }
 
  
+   /*
+  float: right;
+    width:30%;
+  display:inline; */
