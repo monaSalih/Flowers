@@ -1,9 +1,9 @@
 
-function checkNumber(){
-  var input= prompt("what the result of 10/2");
-while (input !== "5"){
-  prompt("please inter the right answer of 10/2");
- }}
+ function checkNumber(){
+   var input= prompt("what the result of 10/2");
+ while (input !== "5"){
+   prompt("please inter the right answer of 10/2");
+  }}
 
 
 
@@ -12,13 +12,20 @@ var favoratNumber=function(){
   var a= prompt("please inter your favort number");
 if (a<7){
     var c=' ';
+    var e
     for(var b=1;b<=a;b++){
   var e=c+ "<img src='https://cdn3.vectorstock.com/i/1000x1000/62/82/thumbs-up-hand-vector-6366282.jpg' width=150 height=150/>";
     document.write(e);
+     
      }
 } else 
-{alert("you did great job") ;} }
+{ e=alert("you did great job") ;} 
+
+return e;}
 // }
+ checkNumber();
+ var x=favoratNumber();
+ document.write(x);
 
 
 
